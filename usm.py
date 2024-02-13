@@ -79,7 +79,7 @@ def packageUpdate():
                 23:'apt install ncdu -y',24:'apt install bat -y',25:'apt install snap -y; snap isntall lsd',26:'apt install tldr -y',
                 27:'apt install figlet -y'}
 
-menuKey = {0:'nmap', 1:'wireshark',2:'tor',3:'screen',4:'wifite',5:'hashcat',6:'john',7:'aircrack-ng',8:'hydra',9:'lynis',
+    menuKey = {0:'nmap', 1:'wireshark',2:'tor',3:'screen',4:'wifite',5:'hashcat',6:'john',7:'aircrack-ng',8:'hydra',9:'lynis',
                10:'netcat',11:'idle', 12:'pip',13:'git', 14:'joe', 15:'tree',16:'nano',17:'emacs',18:'vim',19:'snap',
                20:'bpytop', 21:'neofetch',22:'speedtest-cli',23:'ncdu',24:'bat',25:'lsd',26:'tldr',27:'figlet'}
     while(1):
