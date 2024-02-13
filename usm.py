@@ -33,7 +33,7 @@ def displaypartial():
 [99] display full options menu
 ''')
     
-def packageMenu()
+def packageMenu():
     print('Choose a package to update, or return to primary menu:')
     print('''
 [0] nmap
