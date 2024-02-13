@@ -183,9 +183,9 @@ __/\\\________/\\\_____/\\\\\\\\\\\____/\\\\____________/\\\\_
 
 ''')
 
-user = os.environ('USER')
+#user = os.environ('USER')
 #user = 'user'
-print('Hello ' + user + ', welcome to the Update Script Manager (USM)!')
+print('Hello, welcome to the Update Script Manager (USM)!')
 print('USM is a Python-driven program that works in conjunction with bash scripts to provide an easy medium for updating or installing packages in Debian based Linux distributions')
 print('Please select an option from the menu below, or enter q to quit.\n')
 userchoice = 'b'
