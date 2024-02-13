@@ -10,11 +10,11 @@ Clone the repository onto the user's device with the command:
 
 Next, run the setup script with:
 
-**sudo python usm_setup.py**
+**sudo python3 usm_setup.py**
 
 The device should now contain a directory called "Bash" that is a child of the $HOME directory. Within this directory are a number of bash scripts that will be executed by the usm.py script. Please note that deleting or altering these scripts will directly impact USM's functionality. Now start USM by simply running:
 
-**sudo python usm.py**
+**sudo python3 usm.py**
 
 while in the same directory as the usm.py file.
 
