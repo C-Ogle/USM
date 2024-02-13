@@ -213,18 +213,18 @@ while(userchoice != 'q'):
     if int(userchoice) == 1:
         systemUpdate()
     if int(userchoice) == 2:
-        os.system('bash ~/Bash/pentesting_package.sh')
+        os.system('bash $HOME/Bash/pentesting_package.sh')
     if int(userchoice) == 3:
         packageMenu()
         packageUpdate()
     if int(userchoice) == 4:
-        os.system('bash ~/Bash/managementTools.sh')
+        os.system('bash $HOME/Bash/managementTools.sh')
     if int(userchoice) == 5:
         txteditorChoice()
     if int(userchoice) == 6:
-        os.system('bash ~/Bash/terminalTools.sh')
+        os.system('bash $HOME/Bash/terminalTools.sh')
     if int(userchoice) == 7:
-        os.system('bash ~/Bash/infoTools.sh')
+        os.system('bash $HOME/Bash/infoTools.sh')
     if int(userchoice) == 8:
         os.system('apt install figlet -y')    
     
