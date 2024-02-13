@@ -145,7 +145,7 @@ def txteditorChoice():
 def systemUpdate():
     print('You have selected System Updates. This requires a reboot for changes to take effect.')
     print('Rebooting the system will close all processes currently running, including USM.')
-    print('It is recommended to reboot only if you are finished updating packages for this session. Reboot now? [y/n]\n')
+    print('It is recommended to reboot only if you are finished updating packages for this session. Reboot after these updates? [y/n]\n')
     reboot = input('--> ')
     if reboot == 'n':
         print('Installing update packages without system reboot....')
