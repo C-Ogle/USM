@@ -5,11 +5,17 @@ Experienced Linux users will likely find more streamlined practices by simply ru
 
 # How to install USM:
 Clone the repository onto the user's device with the command:
+
 **git clone https://github.com/C-Ogle/USM.git**
+
 Next, run the setup script with:
+
 **sudo python usm_setup.py**
+
 The device should now contain a directory called "Bash" that is a child of the $HOME directory. Within this directory are a number of bash scripts that will be executed by the usm.py script. Please note that deleting or altering these scripts will directly impact USM's functionality. Now start USM by simply running:
+
 **sudo python usm.py**
+
 while in the same directory as the usm.py file.
 
 ## How it Works
