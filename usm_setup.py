@@ -16,7 +16,7 @@ os.system('echo "#!/bin/bash\n\napt install wifite -y\napt install wireshark -y\
 #managementTools.sh script generation
 os.system('touch $HOME/Bash/managementTools.sh')
 os.system('chmod u+x $HOME/Bash/managementTools.sh')
-os.system('echo "#!/bin/bash\n\napt install git -y\napt install pip -y\napt install snap -y\napt install make -y" >> $HOME/Bash/managementTools.sh')
+os.system('echo "#!/bin/bash\n\napt install git -y\napt install pip -y\napt install snap -y\napt install snapd -y\napt install make -y" >> $HOME/Bash/managementTools.sh')
     
 #terminalTools.sh script generation    
 os.system('touch $HOME/Bash/terminalTools.sh')
@@ -26,7 +26,7 @@ os.system('echo "#!/bin/bash\n\napt install tree -y\napt install bat -y\napt ins
 #infoTools.sh script generation
 os.system('touch $HOME/Bash/infoTools.sh')
 os.system('chmod u+x $HOME/Bash/infoTools.sh')
-os.system('echo "#!/bin/bash\n\napt install snap -y\nsnap install bpytop\napt install neofetch -y\napt install speedtest-cli -y\napt install ncdu -y" >> $HOME/Bash/infoTools.sh')
+os.system('echo "#!/bin/bash\n\napt install snap -y\nsnap install bpytop\napt install bpytop -y\napt install neofetch -y\napt install speedtest-cli -y\napt install ncdu -y" >> $HOME/Bash/infoTools.sh')
 
 
 

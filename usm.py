@@ -74,8 +74,8 @@ def packageUpdate():
                 4: 'apt install wifite -y', 5:'apt install hashcat -y', 6:'apt install john -y', 7:'apt install aircrack-ng -y',
                 8: 'apt install hydra -y', 9:'apt install lynis -y', 10:'apt install netcat -y', 11:'apt install idle -y',
                 12:'apt install pip -y', 13:'apt install git -y', 14:'apt install joe -y', 15:'apt install tree -y',
-                16:'apt install nano -y', 17:'apt install emacs -y', 18:'apt install vim -y',19:'apt install snap -y',
-                20:'apt install snap -y;snap install bpytop',21:'apt install neofetch -y',22:'apt install speedtest-cli -y',
+                16:'apt install nano -y', 17:'apt install emacs -y', 18:'apt install vim -y',19:'apt install snap -y;apt install snapd -y',
+                20:'apt install snap -y;snap install bpytop;apt install bpytop -y',21:'apt install neofetch -y',22:'apt install speedtest-cli -y',
                 23:'apt install ncdu -y',24:'apt install bat -y',25:'apt install snap -y; snap isntall lsd',26:'apt install tldr -y',
                 27:'apt install figlet -y'}
 
