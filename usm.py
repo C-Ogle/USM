@@ -162,7 +162,7 @@ def systemUpdate():
         #BEGIN MAIN#
     
 if os.geteuid() != 0:
-    exit('USM requires root priveleges. Try {sudo python usm.py} command. Exiting now...')
+    exit('USM requires root priveleges. Try {sudo python3 usm.py} command. Exiting now...')
   
 print('''
 
